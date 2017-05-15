@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Anton|Raleway")
+*
+{
+	margin:0;
+	padding:0;
+}
+.like
+{
+	border:1px solid black;
+	float:right;
+	border-radius:25px;
+	padding:1%;
+}
+.container-fluid
+{
+	margin-top:3%;
+	text-transform: uppercase;
+}
+.navbar
+{
+	background-color:white;
+	border:none;
+}
+#myNavbar
+{
+	background-color:white;
+	color:black;
+}
+
+#myNavbar li
+{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+#myNavbar a
+{
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 14px;
+}
+.main
+{
+	height: 600px;
+	background-image: url("../images/image1_720.png"); 
+	background-size: cover;
+}
+.top-text 
+{
+    font-size: 37px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-top: 100px;
+    display: block;
+    font-family: 'Anton';
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.42857143;
+}
+.big-text 
+{
+    font-size: 123px;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+    margin-top: -47px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.42857143;
+}
+.with-container 
+{
+    overflow: hidden;
+    margin-top: -53px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.border 
+{
+    border-top: 3px solid #ffffff;
+    width: 363px;
+    display: inline-block;
+    height: 13px;
+}
+.text_small 
+{
+    font-family: 'WisdomScript';
+    font-size: 38px;
+    display: inline-block;
+    padding: 0 7px;
+}
+.adv-container 
+{
+    height: 58px;
+    width: 819px;
+    margin: 0 auto;
+    margin-top: 1px;
+    margin-bottom: 53px;
+}
+.dm-button.white 
+{
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    transition: box-shadow ease-out 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius:10px;
+    padding: 12px 36px;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    display:block;
+    margin:0 auto;
+    width: 440px;
+}
+.icons-container 
+{
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    margin-top: 33px;
+    padding: 35px 0;
+ }
+ .item-card
+ {
+ 	border-left: 2px solid #f4f4f4;
+ }
+ .item-card:first-child
+ {
+ 	border-left: none;
+ }
+ 
+.icon
+{
+	height: 100px;
+	display:block;
+	margin:0 auto;
+}
+.text
+{
+	font-family: 'Archivo+Black';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+.body-container 
+{
+    border-bottom: 1px solid #e7e7e7;
+    padding: 60px 0 75px 0;
+}
+
+.body-container .title.green 
+{
+    color: #6ec800;
+    font-size: 35px;
+    line-height: 1.42857143;
+    font-weight: 900;
+    text-align: left;
+}
+.body-container .title.pink 
+{
+    color: #e3007a;
+    font-size: 35px;
+    line-height: 1.42857143;
+    font-weight: 900;
+    text-align: left;
+}
+.body-container .title.orange 
+{
+    color: #ff9600;
+    font-size: 35px;
+    line-height: 1.42857143;
+    font-weight: 900;
+    text-align: left;
+}
+.body-container .description 
+{
+    font-family: 'Raleway';
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    padding-right: 45px;
+    text-transform: none;
+    text-align: left;
+}
+.body-container .pink-text .description 
+{
+    padding-right: 0;
+}
+.image2 img
+{
+	margin-left:45px;
+}
+.footer-container 
+{
+	max-width: 100%;
+    background-image: url(../images/footer_720.png);
+    background-repeat: no-repeat;
+    padding-bottom: 255px;
+    background-position: bottom;
+    background-size: 100% auto;
+}
+.footer-container .footer-title 
+{
+    font-family: 'Raleway';
+    font-weight: 900;
+    color: #333333;
+    font-size: 49px;
+    margin-top: 126px;
+    margin-bottom: 29px;
+}
+.white_button
+{
+	background-color: #ffffff;
+	border-radius: 20px;
+    padding: 14px 38px;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    text-transform:uppercase;
+}
+.dm-button.pink 
+{
+    font-family: 'Anton';
+    background-color: #e3007a;
+    border: 1px solid #e3007a;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 14px 23px;
+    font-size: 29px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    text-transform:uppercase;
+    font-weight: 900;
+}
+@media screen and (max-width: 1045px) 
+{
+	
+	.border
+	{
+		width: 263px !important;
+	}
+	
+}
+@media screen and (max-width: 995px) 
+{
+	
+	.adv-container
+	{
+		 width: 619px !important;
+	}
+	.big-text
+	{
+		font-size: 83px !important;
+		margin-top: -37px;
+	}
+	.with-container
+	{
+		margin-top: -33px;
+	}
+	.top-text
+	{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 760px) 
+{
+	.border
+	{
+		width: 163px !important;
+	}
+	.adv-container
+	{
+		 width: 519px !important;
+	}
+	.big-text
+	{
+		font-size: 73px !important;
+		margin-top: -27px;
+	}
+	.with-container
+	{
+		margin-top: -23px;
+	}
+	.top-text
+	{
+		font-size: 26px;
+	}
+}
+@media screen and (max-width: 635px) 
+{
+	.border
+	{
+		width: 120px !important;
+	}
+	.adv-container
+	{
+		 width: 419px !important;
+	}
+	.big-text
+	{
+		font-size: 63px !important;
+		margin-top: -17px;
+	}
+	.with-container
+	{
+		margin-top: -13px;
+	}
+	.top-text
+	{
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 555px) 
+{
+	.border
+	{
+		width: 120px !important;
+	}
+	.adv-container
+	{
+		 width: 319px !important;
+		 height: 
+	}
+	.big-text
+	{
+		font-size: 43px !important;
+		margin-top: -10px;
+	}
+	.with-container
+	{
+		margin-top: -7px;
+	}
+	.top-text
+	{
+		font-size: 20px;
+	}
+	.dm-button.white 
+	{
+	    
+	    padding: 6px 18px;
+	    font-size: 20px;
+	    width: 350px;
+	}
+	.img_x
+	{
+		width: 300px;
+	}
+	.img_x:first-child
+	{
+		margin-left:45px;
+	}
+}
+@media screen and (max-width: 450px) 
+{
+	.border
+	{
+		width: 90px !important;
+	}
+	
+	.big-text
+	{
+		font-size: 43px !important;
+		margin-top: -10px;
+	}
+	.with-container
+	{
+		margin-top: -7px;
+	}
+	.dm-button.white 
+	{
+	    
+	    padding: 6px 10px;
+	    font-size: 20px;
+	    width: 300px;
+	}
+	.white_button
+	{
+		
+	    padding: 14px 20px;
+	    font-size: 18px;
+	}
+	.dm-button.pink 
+	{
+    
+	    padding: 14px 20px;
+	    font-size: 18px;
+	}
+
+}
