@@ -10,6 +10,7 @@
 	float:right;
 	border-radius:25px;
 	padding:1%;
+	width: 200px;
 }
 .container-fluid
 {
@@ -238,6 +239,13 @@
     text-transform:uppercase;
     font-weight: 900;
 }
+@media screen and (max-width: 1210px) 
+{
+	.like
+	{
+		padding:1% 2%;
+	}
+}
 @media screen and (max-width: 1045px) 
 {
 	
@@ -245,11 +253,18 @@
 	{
 		width: 263px !important;
 	}
+	#myNavbar li a
+	{
+		font-size: 13px;
+	}
 	
 }
 @media screen and (max-width: 995px) 
 {
-	
+	#myNavbar li a
+	{
+		font-size: 11px;
+	}
 	.adv-container
 	{
 		 width: 619px !important;
@@ -268,7 +283,7 @@
 		font-size: 30px;
 	}
 }
-@media screen and (max-width: 760px) 
+@media screen and (max-width: 768px) 
 {
 	.border
 	{
@@ -281,15 +296,16 @@
 	.big-text
 	{
 		font-size: 73px !important;
-		margin-top: -27px;
+		margin-top: -17px;
 	}
 	.with-container
 	{
-		margin-top: -23px;
+		margin-top: -13px;
 	}
 	.top-text
 	{
-		font-size: 26px;
+		margin-top: 5%;
+    	font-size: 25px;
 	}
 }
 @media screen and (max-width: 635px) 
