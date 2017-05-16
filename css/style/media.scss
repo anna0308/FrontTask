@@ -1,0 +1,351 @@
+$i:!important;
+
+@media screen and (max-width: 1210px) 
+{
+	.like
+	{
+		padding:1% 2% $i;
+	}
+}
+
+@media screen and (max-width: 1045px) 
+{
+	.border
+	{
+		width: 263px $i;
+	}
+	#myNavbar li a
+	{
+		font-size: 13px $i;
+	}
+}
+
+@media screen and (max-width: 1024px) 
+{
+	.main
+	{
+		max-width: 880px $i;
+	}
+
+	#myNavbar li a
+	{
+		font-size: 11px $i;
+	}
+
+	.adv-container
+	{
+		 width: 619px $i;
+	}
+
+	.big-text
+	{
+		font-size: 83px $i;
+		margin-top: -30px $i;
+	}
+
+	.with-container
+	{
+		margin-top: -33px $i;
+	}
+
+	.top-text
+	{
+		font-size: 30px $i;
+	}
+	
+}
+
+@media screen and (max-width: 768px) 
+{
+	.main
+	{
+		max-width:700px $i;
+	}
+
+	.border
+	{
+		width: 163px $i;
+	}
+
+	.adv-container
+	{
+		width: 519px $i;
+	}
+
+	.big-text
+	{
+		font-size: 73px $i;
+		margin-top: -10px $i;
+	}
+
+	.with-container
+	{
+		margin-top:0 $i;
+	}
+
+	.top-text
+	{
+		margin-top: 5% $i;
+		padding-top:15% $i;
+    	font-size: 25px $i;
+	}
+
+	.body-container
+	{
+		@each $item in green, pink, orange, description 
+		{  
+	       .#{$item} {  
+	         text-align: center $i;  
+	       }  
+	    } 
+    } 
+
+	.img_x 
+	{
+		margin:0 auto $i;
+	}
+	
+}
+
+@media screen and (max-width: 667px) 
+{
+	.border
+	{
+		width: 120px $i;
+	}
+
+	.adv-container
+	{
+		 width: 419px $i;
+	}
+
+	.big-text
+	{
+		font-size: 63px $i;
+		margin-top: -17px $i;
+	}
+
+	.with-container
+	{
+		margin-top: -13px $i;
+	}
+
+	.top-text
+	{
+		padding-top:30% $i;
+    	font-size: 22px $i;
+	}
+}
+
+@media screen and (max-width: 568px) 
+{
+	.like
+	{
+		font-size:13px $i;
+	}
+
+	.border
+	{
+		width: 120px $i;
+	}
+
+	.adv-container
+	{
+		 width: 319px $i;
+	}
+
+	.big-text
+	{
+		font-size: 43px $i;
+		margin-top: -10px $i;
+	}
+
+	.with-container
+	{
+		margin-top: -7px $i;
+		height:80px $i;
+	}
+
+	.top-text
+	{
+		font-size: 16px $i;
+	}
+
+	.dm-button.white 
+	{
+	    padding: 6px 18px $i;
+	    font-size: 20px $i;
+	    width: 350px $i;
+	}
+
+	.img_x
+	{
+		width: 300px $i;
+	}
+
+	.img_x:first-child
+	{
+		margin-left:45px $i;
+	}
+
+	.white_button
+	{
+	    padding: 10px 18px $i;
+	    font-size: 16px $i;
+	}
+
+	.dm-button.pink 
+	{
+	    padding: 10px 18px $i;
+	    font-size: 16 $i;
+	}
+
+	.footer-title
+	{
+		font-size:34px $i;
+	}
+}
+
+@media screen and (max-width: 474px) 
+{
+	.like
+	{
+		font-size:10px $i;
+	}
+
+	.main
+	{
+		height:400px $i;
+	}
+
+	.border
+	{
+		width: 70px $i;
+	}
+
+	.top-text
+	{
+		font-size: 14px $i;
+	}
+
+	.big-text
+	{
+		font-size: 43px $i;
+		margin-top: -10px $i;
+	}
+
+	.with-container
+	{
+		margin-top: -7px $i;
+	}
+
+	.adv-container
+	{
+		width:250px $i;
+		height:80px $i;
+	}
+
+	.dm-button.white 
+	{
+	    padding: 5px 7px $i;
+	    font-size: 13px $i;
+	    width: 220px $i;
+		margin-top:-47px $i;
+	}
+}
+
+@media screen and (max-width: 414px) 
+{
+	.main
+	{
+		max-width:360px $i;
+	}
+
+	.border
+	{
+		width: 70px $i;
+	}
+
+	.top-text
+	{
+		font-size: 11px $i;
+	}
+
+	.big-text
+	{
+		font-size: 33px $i;
+		margin-top: -10px $i;
+	}
+
+	.with-container
+	{
+		margin-top: -7px $i;
+	}
+
+	.adv-container
+	{
+		width:250px $i;
+		height:80px $i;
+	}
+
+	.dm-button.white 
+	{
+	    padding: 6px 10px $i;
+	    font-size: 20px $i;
+	    width: 300px $i;
+	}
+}
+
+@media screen and (max-width: 375px) 
+{
+	.main
+	{
+		max-width:315px $i;
+	}
+
+	.border
+	{
+		width: 40px $i;
+	}
+
+	.top-text
+	{
+		font-size: 10px $i;
+	}
+
+	.big-text
+	{
+		font-size: 23px $i;
+		margin-top: -5px $i;
+	}
+
+	.adv-container
+	{
+		width:200px $i;
+		height:80px $i;
+	}
+
+	.dm-button.white 
+	{
+	    padding: 6px 10px $i;
+	    font-size: 20px $i;
+	    width: 300px $i;
+	}
+
+	.white_button
+	{
+	    padding: 8px 16px $i;
+	    font-size: 14px $i;
+	}
+
+	.dm-button.pink 
+	{
+	    padding: 8px 16px $i;
+	    font-size: 14px $i;
+	}
+	
+	.footer-title
+	{
+		font-size:30px $i;
+	}
+}

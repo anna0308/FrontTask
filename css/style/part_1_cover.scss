@@ -1,0 +1,106 @@
+
+.container
+{
+
+	.part_1_cover
+	{
+
+		.main
+		{
+			position:relative;
+			height: 600px;
+			background:
+			{
+				image: url("../images/image1_720.png"); 
+				size: cover;
+			}
+
+			.top-text 
+			{
+			    display: block;
+			    margin-top: 100px;
+			    line-height: 1.42857143;
+			    letter-spacing: 0.3px;
+			   	color:$white;
+			    text:
+			    {
+			    	transform: uppercase;
+			    	align: center;
+			    }
+			    font:
+			    {
+			    	family: 'Anton';
+			    	size: 37px;
+			    }
+			    
+			}
+
+			.big-text 
+			{
+				margin-top: -47px;
+			    font-size: 123px;
+			    line-height: 1.42857143;
+			    letter-spacing: -0.8px;
+			    color: $white;
+			    text:
+			    {
+			    	transform: uppercase;
+			    	align: center;
+			    }
+			    
+			}
+			.with-container 
+			{
+			    overflow: hidden;
+			    margin-top: -53px;
+			    color:$white;
+			    text-align: center;
+			    font-size: 14px;
+			    line-height: 1.42857143;
+
+			    .border 
+				{
+				    border-top: 3px solid #ffffff;
+				    width: 363px;
+				    display: inline-block;
+				    height: 13px;
+				}
+
+				.text_small 
+				{
+				    font-family: 'Tangerine';
+				    font-size: 38px;
+				    display: inline-block;
+				    padding: 0 7px;
+				}
+				
+			}
+			.adv-container 
+			{
+			    height: 58px;
+			    width: 819px;
+			    margin: 0 auto;
+			    margin-top: 1px;
+			    margin-bottom: 53px;
+			}
+			.dm-button.white 
+			{
+				width: 440px;
+				display:block;
+			    margin:0 auto;
+			    border: 3px solid $white;
+			    color: $white;
+			    text-transform: uppercase;
+			    border-radius:10px;
+			    padding: 12px 36px;
+			    letter-spacing: 1.5px;
+			    font:
+			    {
+			    	weight: bold;
+			    	size: 28px;
+			    }
+			}
+		}
+		
+	}
+}

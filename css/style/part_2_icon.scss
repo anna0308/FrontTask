@@ -1,0 +1,48 @@
+.container
+{
+	.part_2_icon
+	{
+
+	    border-top: 1px solid #e7e7e7;
+	    border-bottom: 1px solid #e7e7e7;
+	    margin-top: 33px;
+	    padding: 35px 0;
+
+	    .item-card
+		{
+		 	border-left: 2px solid #f4f4f4;
+
+		 	&:first-child
+			{
+			 	border-left: none;
+			}
+
+			.icon
+			{
+				height: 100px;
+				display:block;
+				margin:0 auto;
+			}
+			
+			.text
+			{
+				width: 70%;
+			    margin: 0 auto;
+			    margin-bottom: 4px;
+			    line-height: 18px;
+			    color: #333333;
+				font:
+				{
+					family: 'Archivo+Black';
+					size: 18px;
+				}
+			    text:
+			    {
+			    	transform: uppercase;
+			    	align: center;
+			    }
+			}
+		}
+
+	}
+}

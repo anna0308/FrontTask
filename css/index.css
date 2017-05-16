@@ -10,7 +10,6 @@
 	float:right;
 	border-radius:15px;
 	padding:3px;
-	/*width: 220px;*/
 	white-space: nowrap;
 	font-weight:900;
 }
@@ -379,7 +378,6 @@
 	.adv-container
 	{
 		 width: 319px !important;
-		 height: 
 	}
 	.big-text
 	{

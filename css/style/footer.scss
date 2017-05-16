@@ -1,0 +1,42 @@
+.footer-container
+{
+	max-width: 100%;
+    background-image: url(../images/footer_720.png);
+    background-repeat: no-repeat;
+    padding-bottom: 255px;
+    background-position: bottom;
+    background-size: 100% auto;
+    .footer-title 
+	{
+	    font-family: 'Raleway';
+	    font-weight: 900;
+	    color: #333333;
+	    font-size: 49px;
+	    margin-top: 126px;
+	    margin-bottom: 29px;
+	}
+	.white_button
+	{
+		background-color: #ffffff;
+		border-radius: 20px;
+	    padding: 14px 38px;
+	    font-size: 22px;
+	    letter-spacing: 0.5px;
+	    margin-top: 30px;
+	    text-transform:uppercase;
+	}
+	.dm-button.pink 
+	{
+	    font-family: 'Anton';
+	    background-color: #e3007a;
+	    border: 1px solid #e3007a;
+	    color: #ffffff;
+	    border-radius: 20px;
+	    padding: 14px 23px;
+	    font-size: 29px;
+	    letter-spacing: 0.5px;
+	    margin-top: 30px;
+	    text-transform:uppercase;
+	    font-weight: 900;
+	}
+}

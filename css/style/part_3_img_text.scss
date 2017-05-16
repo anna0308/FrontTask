@@ -1,0 +1,88 @@
+$bold:900;
+$dim:1.42857143;
+
+.container
+{
+
+	.part_3_img_text
+	{
+		border-bottom: 1px solid #e7e7e7;
+    	padding: 60px 0 75px 0;
+
+    	.title.green 
+		{
+		    color: #6ec800;
+		    font:
+		    {
+		    	size: 35px;
+		    	weight: $bold;
+		    }
+		    line-height: $dim;
+		    text-align: left;
+		}
+
+		.title.pink 
+		{
+		    color: #e3007a;
+		    font:
+		    {
+		    	size: 35px;
+		    	weight: $bold;
+		    }
+		    line-height: $dim;
+		    text-align: left;
+		}
+
+		.title.pink 
+		{
+		    color: #e3007a;
+		    font:
+		    {
+		    	size: 35px;
+		    	weight: $bold;
+		    }
+		    text-align: left;
+		    line-height: $dim;
+		}
+
+		.title.orange 
+		{
+		    color: #ff9600;
+		    font:
+		    {
+		    	size: 35px;
+		    	weight: $bold;
+		    }
+		    text-align: left;
+		    line-height: $dim;
+		}
+
+		.description 
+		{
+			color: #333333;
+		    line-height: 24px;
+		    letter-spacing: -0.1px;
+		    font:
+		    {
+		    	family: 'Raleway';
+		    	size: 16px;
+		    }
+		    
+		    text:
+		    {
+		    	transform: none;
+		    	align: left;
+		    }
+		}
+
+		.pink-text .description 
+		{
+		    padding-right: 0;
+		}
+		
+		.image2 img
+		{
+			margin-left:45px;
+		}
+	}
+}
